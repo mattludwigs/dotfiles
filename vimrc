@@ -35,6 +35,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'pangloss/vim-javascript'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'reasonml-editor/vim-reason-plus'
+
 
 " Initialize plugin system
 call plug#end()
