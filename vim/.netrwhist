@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/mludwigs/git/code/talks/exconfus/2017/ex_down/lib/ex_down'
