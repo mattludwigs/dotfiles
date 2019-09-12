@@ -17,6 +17,7 @@ autocmd FileType javascript set tabstop=2|set shiftwidth=2|set expandtab
 call plug#begin('~/.vim/plugged')
 
 Plug 'elixir-lang/vim-elixir'
+Plug 'mhinz/vim-mix-format'
 Plug 'kien/ctrlp.vim'
 Plug 'morhetz/gruvbox'
 Plug 'ElmCast/elm-vim'
@@ -74,6 +75,9 @@ colorscheme gruvbox
 
 let g:gruvbox_contrast_dark = "soft"
 set background=dark
+
+let g:mix_format_on_save = 1
+let g:mix_format_silent_errors = 1
 
 """
 " Mappings

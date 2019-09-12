@@ -14,12 +14,15 @@ sudo apt-get install -y \
          m4 \
          unzip \
          cmake \
-         python
+         python \
+         vim-gtk3
 
 cp ./.git-prompt.sh ~
 
 git config --global alias.co checkout
 source ~/.git-prompt.sh
+
+git config --global core.editor "vim"
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.4
 
