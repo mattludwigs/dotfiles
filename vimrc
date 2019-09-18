@@ -37,7 +37,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'reasonml-editor/vim-reason-plus'
-
+Plug 'racer-rust/vim-racer'
 
 " Initialize plugin system
 call plug#end()
@@ -78,6 +78,9 @@ set background=dark
 
 let g:mix_format_on_save = 1
 let g:mix_format_silent_errors = 1
+
+set spelllang=en
+set spell
 
 """
 " Mappings
