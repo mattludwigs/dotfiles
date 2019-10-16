@@ -15,7 +15,8 @@ sudo apt-get install -y \
          unzip \
          cmake \
          python \
-         vim-gtk3
+         vim-gtk3 \
+         inotify-tools
 
 cp ./.git-prompt.sh ~
 
