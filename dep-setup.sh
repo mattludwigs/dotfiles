@@ -41,7 +41,6 @@ rustup toolchain add nightly
 cargo +nightly install racer
 
 
-
 # asdf install erlang 22.0.7
 # asdf install elixir 1.9.1-otp-22.0
 
