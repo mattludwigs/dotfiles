@@ -9,6 +9,8 @@ aug CursorInsert
   autocmd InsertEnter * highlight CursorLine ctermbg=black ctermfg=None term=None cterm=None gui=None
 aug END
 
+autocmd BufWritePre * %s/\s\+$//e
+
 au BufNewFile,BufRead *.exs set filetype=elixir
 au BufNewFile,BufRead *.types set filetype=elixir
 
@@ -123,4 +125,10 @@ nmap <leader>bs :CtrlPMRU<cr>
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
+
+
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red
+
+
 
